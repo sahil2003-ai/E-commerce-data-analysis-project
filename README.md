@@ -1,37 +1,26 @@
 # E-commerce Sales and Profit Analysis
 
-A Python analytics project exploring monthly sales, profit, product categories, sub-categories, and customer segments in e-commerce data.
+A Python project exploring monthly sales, profit, product categories, sub-categories, and customer segments.
 
-## Objective
-Understand how sales and profitability vary across products and customer groups, and communicate the patterns through clear visualizations.
+## Step-by-step workflow
 
-## Analysis Scope
-- Monthly sales and profit trends
-- Sales and profit by product category and sub-category
-- Performance by customer segment
-- Sales-to-profit comparisons
+1. Open `E-commerce project.ipynb` in Jupyter Notebook or Google Colab.
+2. Inspect the first cells to identify the dataset path, required columns, and libraries.
+3. Load the data with pandas and review shape, data types, missing values, and duplicates.
+4. Clean date, category, sales, and profit fields as required by the notebook.
+5. Group the data by month, product category/sub-category, and customer segment.
+6. Calculate sales, profit, and any sales-to-profit ratio using clearly defined formulas.
+7. Build Plotly charts and check labels, sorting, units, and outliers.
+8. Summarize verified findings and explain what they might mean for business decisions.
 
 ## Tools
-- Python
-- pandas for data preparation and aggregation
-- Plotly for visualizations
+Python, pandas, Plotly, Jupyter Notebook.
 
-Confirm the exact dataset and dependencies from the project files before running the analysis.
+## Screenshots
+No screenshots are currently documented. Add exported charts or notebook screenshots under `images/` and embed them here.
 
-## How to Review
-1. Open the notebook or Python scripts in this repository.
-2. Check how the source data is loaded and cleaned.
-3. Review the grouping and calculations used for sales, profit, and ratios.
-4. Inspect each chart and confirm its labels, units, and filters.
+## Important checks
+Define ratios carefully, especially when profit is zero or negative. Correlation and trends alone do not prove causes.
 
-## Skills Demonstrated
-Exploratory data analysis, grouping and aggregation, profitability analysis, data visualization, and business communication.
-
-## Recommended Improvements
-- Document the dataset source, date range, and columns.
-- Include setup instructions and a requirements file.
-- Add a few verified findings with chart screenshots.
-- Define the sales-to-profit ratio precisely and handle zero or negative values.
-- Keep numerical claims tied to outputs from the notebook.
-
-> This README describes the analysis scope documented for the project. Numerical findings should be added after verifying the analysis outputs.
+## Next improvements
+Document the dataset source, provide a requirements file, add chart images, and include reproducible findings.
