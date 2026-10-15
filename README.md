@@ -2,6 +2,8 @@
 
 A Python notebook project for exploratory analysis of e-commerce sales, profit, product categories, sub-categories, and customer segments.
 
+![Status](https://img.shields.io/badge/Status-Documented-yellow)
+
 ## 📌 Table of Contents
 
 - [Overview](#-overview)
@@ -29,22 +31,18 @@ A Python notebook project for exploratory analysis of e-commerce sales, profit, 
 
 ## 🎯 Problem Statement
 
-The project frames an analytical or engineering question using the data, code, and outputs available in this repository. Findings should be interpreted according to the documented dataset, methodology, and limitations.
+The project addresses an analytical or predictive question using the data and implementation files in the repository. Results are meaningful only when dataset definitions, preprocessing, and evaluation design are transparent.
 
 ## 🎯 Objectives
 
-- Understand the data and project question.
-- Document the implemented analytical or engineering workflow.
-- Report measurable results only where supported by repository evidence.
-- Make the work reproducible for reviewers.
+- Inspect and prepare the available data.
+- Implement the analysis or model workflow documented in the project.
+- Report verifiable metrics and distinguish saved outputs from reproduced results.
+- Make the project easier to reproduce and review.
 
 ## ✨ Features
 
-The features below are limited to the work described in the existing repository documentation.
-
-### Results
-
-This README does not currently quote numerical business results because the notebook outputs could not be independently extracted in this review. Add a short metrics table and three to five evidence-based observations after rerunning the notebook.
+1. Inspect the repository data and source files.\n2. Review the existing notebook/script workflow.\n3. Reproduce the documented calculations or application behavior.\n4. Validate numerical claims against outputs and record any limitations.
 
 ## 📂 Dataset
 
@@ -72,7 +70,7 @@ Python, pandas, Jupyter Notebook, and the visualization libraries actually impor
 
 ## 🗂️ Repository Structure
 
-The repository root contains the project files. Browse the repository tree for the actual file and folder names; no additional paths are assumed here.
+Inspect the repository tree for the actual files. No unverified paths are assumed here.
 
 ## ⚙️ Installation
 
@@ -97,34 +95,17 @@ There is no separate `requirements.txt` in the repository root, so dependencies 
 
 This README does not currently quote numerical business results because the notebook outputs could not be independently extracted in this review. Add a short metrics table and three to five evidence-based observations after rerunning the notebook.
 
-## Additional Project Documentation\n\n### Project file
+## 🖼️ Screenshots
 
-| File | Purpose |
-|---|---|
-| `E-commerce project.ipynb` | Data loading, analysis, and visualizations |
-
-### Project objectives
-
-- Inspect and prepare the dataset for analysis.
-- Explore sales and profit patterns across available dimensions.
-- Compare category, sub-category, and customer-segment performance.
-- Communicate findings with charts and descriptive statistics.
-
-### Author
-
-Sahil Gaikwad · [GitHub](https://github.com/sahil2003-ai) · [LinkedIn](https://www.linkedin.com/in/sahil-gaikwad-a76b7224a/)\n## 🖼️ Screenshots
-
-No verified screenshot path was identified in the existing README. Add real screenshots from the repository only when the corresponding image files exist.
+Add only genuine charts or application screenshots that exist in the repository. No screenshot path is asserted here unless documented in the source files.
 
 ## 🧩 Challenges and Solutions
 
-### Validation and reproducibility
-
-| Challenge | Approach |
+| Challenge | Solution |
 |---|---|
-| Metrics can be mistaken for independently verified results | Preserve the evidence status stated in the existing documentation. |
-| Data sources, filters, or execution environments may differ | Confirm source paths, schema, dependencies, and calculation definitions when rerunning. |
-| Screenshots and dashboard outputs may not be independently accessible | Only link to real files present in the repository. |
+| Saved notebook results can become stale | Rerun cells from top to bottom and verify outputs. |
+| Model performance can be overstated | Use a valid holdout or cross-validation and report the split strategy. |
+| Reproduction depends on paths and package versions | Document dependencies, input paths, and data provenance. |
 
 ## ⚠️ Limitations
 
@@ -140,9 +121,9 @@ No verified screenshot path was identified in the existing README. Add real scre
 
 ## 📚 What I Learned
 
-### Skills demonstrated
-
-Python data analysis, data profiling, exploratory data analysis, sales/profit aggregation, segmentation, visualization, and communicating analytical findings.
+- Building a documented and reproducible analysis workflow.
+- Choosing metrics appropriate to the task and dataset.
+- Explaining assumptions and limitations alongside results.
 
 ## 👤 Author
 
